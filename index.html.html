@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferensi Seseorang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Beritahu Kami Tentang Preferensimu!</h1>
+        <form id="preferencesForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+
+            <label for="likes">Apa yang Kamu Sukai:</label>
+            <input type="text" id="likes" required>
+
+            <label for="dislikes">Apa yang Kamu Benci:</label>
+            <input type="text" id="dislikes" required>
+
+            <label for="personType">Tipe Orang yang Kamu Suka:</label>
+            <input type="text" id="personType" required>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
